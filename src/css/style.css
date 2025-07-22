@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&family=Permanent+Marker&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
@@ -41,8 +45,11 @@ h1 {
 }
 
 .card-box h3 {
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: 1.5;
+  font-family: "Mansalva", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 @media (max-width: 1200px) {
